@@ -52,4 +52,13 @@
     "tslint": "~6.1.0",
     "typescript": "4.1.5"
   }
+  {
+  //...
+  "scripts": {
+    // ...
+    "build:ci": "ng build --configuration production",
+    "test:ci": "ng test  --watch=false --code-coverage --browsers ChromeHeadless"
+  }
+  // ...
+}
 }
